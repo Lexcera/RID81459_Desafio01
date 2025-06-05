@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #303030;
+    padding: 3rem;
+    color: #ffffff;
+
+    font-family: "inter";
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+#dados {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+
+    justify-content: space-around;
+
+    background-color: #ececec;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    font-family: "inter";
+    font-size: 1.5rem;
+}
+
+#corpo h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    color: #000000;
+}
+
+#formulario {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: "inter";
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #C07212;
+    color: #ffffff;
+    padding: .8rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-family: "inter";
+    font-weight: 400;
+    margin: 2rem 0 2rem 0;
+    width: 20%;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 40%;
+}
+
+#formulario h2{
+    padding: 2rem;
+}
+
+input{
+    height: 3rem;
+    font-family: "inter";
+    border-radius: .5rem;
+    padding-left: 1rem;
+}
+
